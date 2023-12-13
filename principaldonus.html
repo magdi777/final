@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloprincipaldonu.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-donut"></i> DONUTS CATS</h1>
+        <nav>
+            <ul>
+                <li><a href="principaldonus.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="acercade.html"><i class="fas fa-info-circle"></i> Sobre nosotros</a></li>
+                <li><a href="menudonus.html"><i class="fas fa-bars"></i> Menú</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="suscripcion">
+        <h2>Únete a Nuestra Lista de Correo</h2>
+        <form id="formulario-suscripcion">
+            <input type="email" id="correoElectronico" placeholder="Tu correo electrónico" required>
+            <button type="button" onclick="suscribirse()">Suscribirse</button>
+        </form>
+    </section>
+    
+    <section id="menu">
+        <div class="container">
+            <p>Descubre nuestra increíble selección de donas caseras. ¡Te enamorarás de cada mordisco!</p>
+            <div class="donut-image">
+              <img src="https://www.abc.com.py/resizer/kTV3mNPP_k1_Zfv5Qp47aNaCtpk=/fit-in/770x495/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/abccolor/KBMPSXSJEBFR5ED6N3ON7NEAKA.jpg" alt="Deliciosas Donas" class="moving-donuts">
+            </div>
+       
+    </section>
+    <section id="productos-destacados">
+        <h2>Productos Destacados</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="https://w7.pngwing.com/pngs/369/170/png-transparent-close-up-graphy-of-doughnuts-with-chocolate-and-sprinkles-donuts-computer-mouse-boston-cream-doughnut-custard-donut-cream-electronics-food.png" alt="Nombre del Producto 1">
+                <h3>Donut de Chocolate</h3>
+                <p>Un clásico y delicioso donut cubierto de chocolate.</p>
+            </div>
+           
+            <div class="producto">
+                <img src="https://s.cornershopapp.com/product-images/1889777.jpg?versionId=7WZoHxN9XQ9kCD_116GCqMIhKOj8ZEkf" alt="Nombre del Producto 1">
+                <h3>Donut de cafe</h3>
+                <p>Un donut glaseado con sabor a cafe y chocolate negro</p>
+            </div>
+            <div class="producto">
+                <img src="https://donasamericanas.com/cdn/shop/products/Dona-de-Vainilla-Donas-Americanas.jpg?v=1631144859" alt="Nombre del Producto 1">
+                <h3>Donut de vainilla</h3>
+                <p>Un donut glaseado con sabor a vainilla y chocolate banco.</p>
+            </div>
+            <!-- Repite para otros productos -->
+        </div>
+    </section>
+    
+    
+    
+    <section id="blog">
+        <h2>Nuestro Blog de Donas</h2>
+        <div class="entrada-blog">
+            <img src="https://truffle-assets.tastemadecontent.net/4f644aee-dona-de-chocolate-l-thumb.jpg" alt="Donas Blog 1">
+            <h3>Receta de la Semana: Donas de Chocolate</h3>
+            <p>Descubre cómo hacer las donas de chocolate más deliciosas en casa.</p>
+        </div>
+        
+        <div class="entrada-blog" id="entrada2">
+            <!-- Contenido resumido de la entrada del blog 2 -->
+            <p>¡Descubre la receta secreta de nuestras deliciosas donas de chocolate!</p>
+            <button class="leer-mas" onclick="mostrarReceta('entrada2')">Leer Más</button>
+            <div class="receta" id="receta-entrada2">
+                <!-- Contenido completo de la receta -->
+                <p>Ingredientes:</p>
+                <ul>
+                    <li>Harina</li>
+                    <li>Azúcar</li>
+                    <!-- Agrega más ingredientes -->
+                </ul>
+                <p>Pasos:</p>
+                <ol>
+                    <li>Mézclalo todo</li>
+                    <li>Hornea a 180°C durante 20 minutos</li>
+                    <!-- Agrega más pasos -->
+                </ol>
+                <button class="leer-menos" onclick="ocultarReceta('entrada2')">Leer Menos</button>
+            </div>
+        </div>
+        
+        
+        <div class="entrada-blog" id="entrada1">
+            <!-- Contenido de la entrada del blog 1 -->
+            <div class="comentarios" id="comentarios-entrada1">
+                <!-- Sección de comentarios -->
+            </div>
+            <form id="formulario-comentario-entrada1">
+                <textarea placeholder="Deja tu comentario" required></textarea>
+                <button type="submit">Comentar</button>
+            </form>
+        </div>
+        
+        <section id="blog">
+        
+            <div class="entrada-blog">
+                <img src="https://crudoycocido.com/wp-content/uploads/2022/11/DONA-BLOG-3.jpg" alt="Donas Blog 1">
+                <h3>Receta de la Semana: Donas de Canela</h3>
+                <p>Descubre cómo hacer las donas de canela más deliciosas en casa.</p>
+            </div>
+        <!-- Agrega más entradas de blog -->
+    </section>
+    
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>¡Estamos ansiosos por tu pedido! Contáctanos en <a href="mailto:info@donutscats.com">info@donutscats.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Doutscats - Todos los derechos reservados.</p>
+    </footer>
+    <script src="principal.js"></script>
+ 
+</body>
+</html>
