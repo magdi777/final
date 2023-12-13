@@ -1,0 +1,106 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.comedera.com/wp-content/uploads/2023/04/donas-glaseadas-PG_D180520002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Estilos para el encabezado */
+header {
+  background-color: #FE7BE5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #BAABDA;
+  border-radius: 10px;
+  background-color: #D77FA1;
+  box-shadow: 2px 2px 100px #ccc;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.card-header .log {
+  margin: 10;
+  font-size: 24px;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #7B2869;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ccc;
+  color: black;
+}
+/* Estilos para la sección de contacto */
+#contacto {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  background-color: #D67BFF;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
